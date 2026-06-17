@@ -1,6 +1,6 @@
 import axios from "axios";
 const contact = axios.create({
-  baseURL: "http://localhost:2000/user",
+  baseURL: import.meta.env.VITE_USER_URL,
 });
 
 export default contact;
