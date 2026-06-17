@@ -65,7 +65,7 @@ const Projects = () => {
               className="bg-zinc-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 w-full min-w-0"
             >
               <img
-                src={`http://localhost:2000/${project.image}`}
+                src={`https://portfolio-backend-ts5k.onrender.com//${project.image}`}
                 alt={project.projectName}
                 className="w-full h-52 sm:h-60 object-cover p-2 rounded-t-2xl"
               />
