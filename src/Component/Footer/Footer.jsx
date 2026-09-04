@@ -3,13 +3,21 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-zinc-950 text-white py-16 overflow-x-hidden">
+    <footer className="  shadow-[0_0_10px_#f97316,0_0_25px_#f97316] animate-pulsew-full bg-gray-700 text-white py-16 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Logo & About */}
           <div>
-            <div className="h-16 w-16 bg-yellow-800 flex justify-center items-center rounded-t-4xl">
-              <h2 className="text-3xl font-serif text-white">R</h2>
+            <div className="h-16 w-16 flex justify-center items-center rounded-t-4xl">
+              <a href="#home">
+                <p className=" h-18 w-18 lg:h-23 lg:w-23  rounded-t-4xl flex justify-center items-center text-3xl font-serif text-white ">
+                  <img
+                    src="/Ram.png"
+                    alt="Rambabu Kumar Logo"
+                    className="h-18 w-18 lg:h-23 lg:w-23 "
+                  />
+                </p>
+              </a>
             </div>
 
             <p className="text-gray-400 mt-4 leading-7 text-sm sm:text-base">

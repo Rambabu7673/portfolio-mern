@@ -44,8 +44,15 @@ const Projects = () => {
         >
           My <span className="text-green-800">Projects</span>
         </motion.h2>
+        <div className="flex justify-center gap-10 mb-12 bg-gray-100 p-4 mt-10 rounded-lg flex-wrap gap-y-4">
+          <p className="text-black font-medium  text-lg px-4 py-2 bg-gray-100 hover:text-orange-500 cursor-pointer text-gray-500 "> Portfolio</p>
+          <p className="text-black font-medium  text-lg px-4 py-2 bg-gray-100  hover:text-orange-500 cursor-pointer text-gray-500"> Hospitalaty </p>
+          <p className="text-black font-medium  text-lg px-4 py-2 bg-gray-100 hover:text-orange-500 cursor-pointer text-gray-500"> Business Website</p>
+          <p className="text-black font-medium  text-lg px-4 py-2 bg-gray-100 hover:text-orange-500 cursor-pointer text-gray-500"> E-commerce</p>
+          <p className="text-black font-medium  text-lg px-4 py-2 bg-gray-100 hover:text-orange-500 cursor-pointer text-gray-500"> All Projects</p>
+        </div>
 
-        <p className="text-center text-gray-600 mb-12 px-2">
+        <p className="text-center text-gray-600 mb-12 px-2 font-medium text-base sm:text-lg">
           Here are some of my recent projects built using MERN Stack and modern
           web technologies.
         </p>

@@ -6,37 +6,71 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-lg shadow-md z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 lg:py-0 py-2 flex justify-between items-center">
         {/* Logo */}
         <a href="#home">
-          <p className="h-14 w-14 bg-zinc-900 rounded-t-4xl flex justify-center items-center text-3xl font-serif text-white">
-            R
+          <p className=" h-18 w-18 lg:h-23 lg:w-23  rounded-t-4xl flex justify-center items-center text-3xl font-serif text-white ">
+            <img
+              src="/Ram.png"
+              alt="Rambabu Kumar Logo"
+              className="h-18 w-18 lg:h-23 lg:w-23 "
+            />
           </p>
         </a>
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex items-center gap-8 font-medium text-lg">
           <li>
-            <a href="#home">Home</a>
+            <a
+              href="#home"
+              className="cursor-pointer hover:text-yellow-500cls
+            "
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a
+              href="#about"
+              className="cursor-pointer hover:text-yellow-500cls
+            "
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a
+              href="#skills"
+              className="cursor-pointer hover:text-yellow-500cls
+            "
+            >
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a
+              href="#projects"
+              className="cursor-pointer hover:text-yellow-500cls
+            "
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a
+              href="#contact"
+              className="cursor-pointer hover:text-yellow-500cls
+            "
+            >
+              Contact
+            </a>
           </li>
 
           <li>
             <a
               href="/resume.pdf"
               target="_blank"
-              className="bg-green-800 text-white px-5 py-2 rounded-lg"
+              className="bg-green-800 text-white px-10 py-3 rounded-lg"
             >
               Resume
             </a>
@@ -85,11 +119,11 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li>
+          <li >
             <a
               href="/resume.pdf"
               target="_blank"
-              className="bg-green-800 text-white px-5 py-2 rounded"
+              className=" text-white px-5 py-2 rounded"
             >
               Resume
             </a>

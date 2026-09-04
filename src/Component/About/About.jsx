@@ -25,11 +25,13 @@ const About = () => {
             overflow-hidden
           "
         >
-          <img
-            src={profile}
-            alt="Rambabu Kumar"
-            className="w-full h-full object-cover"
-          />
+          <div className="   shadow-[0_0_10px_#f97316,0_0_25px_#f97316] animate-pulse">
+            <img
+              src={profile}
+              alt="Rambabu Kumar"
+              className="w-full h-full object-cover "
+            />
+          </div>
         </motion.div>
 
         {/* Right Side Content */}
